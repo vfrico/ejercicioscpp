@@ -9,7 +9,7 @@ int main()
     cout << "Ejercicios pensados para pascal hechos en cpp" << endl;
     cout << endl;
     cout << "0.- Cerrar programa" << endl;
-    cout << "1.- Pasar de radianes a grados" << endl;
+    cout << "1.- Pasar de radianes a grados (y viceversa)" << endl;
 
     cout << "Introduce la seleccion" << endl;
     int seleccion;

@@ -6,5 +6,6 @@ CONFIG -= qt
 SOURCES += main.cpp
 
 HEADERS += \
-    rad2deg.h
+    rad2deg.h \
+    segundos.h
 
