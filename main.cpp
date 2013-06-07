@@ -23,6 +23,7 @@ int main()
     }
     else {
         cout << "No valido" << endl;
+        return 1;
     }
 }
 
