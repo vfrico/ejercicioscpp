@@ -7,5 +7,6 @@ SOURCES += main.cpp
 
 HEADERS += \
     rad2deg.h \
-    segundos.h
+    segundos.h \
+    HeronAlej.h
 
