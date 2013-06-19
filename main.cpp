@@ -2,6 +2,7 @@
 #include "rad2deg.h"
 #include "segundos.h"
 #include "HeronAlej.h"
+#include "calcpi.h"
 using namespace std;
 
 int main()
@@ -13,10 +14,12 @@ int main()
     cout << "1.- Pasar de radianes a grados (y viceversa)" << endl;
     cout << "2.- Pasar de Años y Dias a segundos." << endl;
     cout << "3.- Calcular el area de un triangulo." << endl;
+    cout << "4.- Calcular Pi." << endl;
 
     cout << "Introduce la seleccion" << endl;
     int seleccion;
-    cin >> seleccion;
+    //cin >> seleccion;
+    seleccion = 4 ;
 
     if (seleccion == 0) {
         return 0;
@@ -29,6 +32,15 @@ int main()
     }
     else if (seleccion == 3) {
         HeronAlejandria();
+    }
+    else if (seleccion == 4) {
+        //long it;
+        //cout << "Introduce iteraciones" << endl;
+        //cin >> it;
+        //it = 999999;
+        //cout << it << endl;
+        calcpi_2(1);
+
     }
     else {
         cout << "No valido" << endl;
