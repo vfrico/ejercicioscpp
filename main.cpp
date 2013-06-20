@@ -1,4 +1,5 @@
 #include <iostream>
+#include <time.h>
 #include "rad2deg.h"
 #include "segundos.h"
 #include "HeronAlej.h"
@@ -46,5 +47,8 @@ int main()
         cout << "No valido" << endl;
         return 1;
     }
+    float ti_ejec;
+    ti_ejec = (float)clock()/CLOCKS_PER_SEC;
+    cout << "Tiempo de ejecucion: " << ti_ejec << " segundos." << endl;
 }
 

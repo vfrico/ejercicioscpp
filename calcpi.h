@@ -34,7 +34,7 @@ void calcpi_2(double veces){
     cout << fixed << showpoint << setprecision(20);
     //~ cout << "Introduce el número de veces: " ;
     //~ cin >> veces;
-    veces = 999999999;
+    veces = 9999999999;
     cout << "Usando " << veces << endl;
 
     bool par = true;
